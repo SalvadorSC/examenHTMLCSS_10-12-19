@@ -1,0 +1,93 @@
+body {
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.barralateral {
+    background-color: rgba(34, 34, 34, 0.5);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100px;
+}
+
+.logo {
+    margin: 5px 20px;
+}
+
+.visto{
+    filter: grayscale(100%);
+    margin-bottom:100px;
+}
+
+.titulo {
+    background-image: url(/imatges/2004YTuQueSabes.jpg);
+    background-size: cover;
+    width: 100%;
+    float:left;
+    height:75px;
+    filter: grayscale(100%);
+    align-items: center;
+}
+
+h1 {
+    margin-left: 120px;
+}
+
+.pelis {
+    margin-left: 120px;
+    width:100%;
+}
+
+.portada {
+    width: 175px;
+    border-radius: 5px;
+}
+
+.portada:hover {
+    opacity: 50%;
+}
+
+.individual {
+    width: auto;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.individual p {
+    color: #ccc;
+}
+
+.petit {
+    font-size: 11px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.petit p {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+
+@media (max-width:640px) {
+    .social {
+        display: none;
+    }
+}
